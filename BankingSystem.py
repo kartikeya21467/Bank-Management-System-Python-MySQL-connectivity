@@ -20,7 +20,7 @@ print("=<< 7. Exit/Quit                                     >>=")
 print("***********************************************")
     
 #Creating Table
-mydb= mysql.connector.connect(host="localhost",user="root",password="Keshu_2003",\
+mydb= mysql.connector.connect(host="localhost",user="root",password="",\
                                                           database="Bank_Database")
 mycursor=mydb.cursor()
 mycursor.execute("CREATE TABLE Account_Details(Account_Number  int(6) , Name varchar(15),\
